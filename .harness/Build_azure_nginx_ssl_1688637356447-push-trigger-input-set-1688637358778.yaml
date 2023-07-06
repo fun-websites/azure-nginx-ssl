@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_azure_nginx_ssl_1688637356447-push-trigger-input-set
+  identifier: Build_azure_nginx_ssl_1688637356447pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_azure_nginx_ssl_1688637356447
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
