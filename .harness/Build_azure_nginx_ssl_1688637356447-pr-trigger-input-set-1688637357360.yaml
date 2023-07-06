@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_azure_nginx_ssl_1688637356447-pr-trigger-input-set
+  identifier: Build_azure_nginx_ssl_1688637356447prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_azure_nginx_ssl_1688637356447
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
